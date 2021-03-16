@@ -1,38 +1,65 @@
-.App {
+/* .App{
+  width: 100%;
+  height: 100%;
+  background-color: royalblue;
+}
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+form input{
+  margin-bottom: 10px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form  h3{
+  text-align: center;
+  margin-bottom: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+form button{
+  padding: 4px 20px;
+  background-color: royalblue;
   color: white;
+  font-family: 'Gilroy';
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: none;
+  border: none;
+  border-radius: 2px;
+}
+form button:hover{
+  box-shadow: 0px 3px 10px gray;
+  cursor: pointer;
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+section{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(197, 235, 253);
 }
 
-.App-link {
-  color: #61dafb;
+.App{
+  width: 100%;
+  height: 100%;
+  padding: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
 }

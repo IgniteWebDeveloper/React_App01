@@ -1,0 +1,39 @@
+form{
+    font-family: 'Gilroy';
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+}
+form input{
+    margin-top: 10px;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    outline-style: none;
+}
+form h3{
+    text-align: center;
+}
+form button{
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: royalblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Gilroy';
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    outline-style: none;
+    font-weight: 500;
+}
+form button:hover{
+    cursor: pointer;
+    background-color: rgb(35, 95, 207);
+}
